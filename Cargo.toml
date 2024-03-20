@@ -1,0 +1,9 @@
+[package]
+name = "http_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = "0.5.0-rc.1"
+uuid = { version = "1.2.0", features = ["v4" , "serde"] } 
+rocket_dyn_templates = "0.1.0"
